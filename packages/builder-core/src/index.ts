@@ -5,3 +5,5 @@ export * from './components';
 import '@quillforms/document-editor';
 import '@quillforms/settings-editor';
 import '@quillforms/notifications-editor';
+import './theme-panel/index.tsx';
+import '@quillforms/theme-editor';

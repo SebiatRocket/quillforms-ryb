@@ -1,39 +1,19 @@
 {
 	"name": "@quillforms/theme-editor",
-	"version": "4.0.4",
-	"description": "Quill Forms Theme Editor",
-	"author": "Mohamed Magdy <md.magdy.sa@gmail.com> (https://github.com/mdmag)",
+	"version": "1.0.0",
+	"description": "Theme editor for QuillForms.",
+	"author": "quillforms",
 	"license": "GPL-2.0-or-later",
-	"keywords": [
-		"quillforms",
-		"theme",
-		"editor"
-	],
-	"homepage": "https://github.com/quillforms/quillforms/tree/master/packages/theme-editor/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/quillforms/quillforms.git",
-		"directory": "packages/theme-editor"
-	},
-	"bugs": {
-		"url": "https://github.com/quillforms/quillforms/issues"
-	},
 	"main": "build/index.js",
-	"module": "build-module/index.js",
 	"dependencies": {
-		"@babel/runtime": "^7.16.0",
-		"@quillforms/admin-components": "^4.0.4",
-		"@quillforms/config": "^4.0.4",
-		"gradient-parser": "^1.0.2",
-		"react-dnd": "15.1.2",
-		"tinycolor2": "^1.4.2"
+		"@quillforms/blocks": "*",
+		"@quillforms/builder-core": "*",
+		"@quillforms/builder-panels": "*",
+		"classnames": "^2.3.1",
+		"lodash": "^4.17.21"
 	},
 	"peerDependencies": {
-		"react": "^16.8.5 || ^17.0.0 || ^18.0.0",
-		"react-dom": "^16.8.5 || ^17.0.0 || ^18.0.0"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "50abe92c5e7c056add2d51383e318ea5597219be"
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
 }
